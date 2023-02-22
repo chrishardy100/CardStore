@@ -1,0 +1,3 @@
+To add buttons wherever:
+
+      <button class = "ripple"><a href="LINK URL GOES HERE" target = "_blank">LINK TITLE GOES HERE</a></button><script src="../js/ButtonScript.js"></script>

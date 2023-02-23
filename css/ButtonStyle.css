@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Roboto', sans-serif; 
-}
-
 button{
     background-color: purple;
     border: 1px purple solid;

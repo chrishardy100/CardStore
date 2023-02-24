@@ -1,8 +1,3 @@
-*{
-  box-sizing: border-box;
-
-}
-
 .navbar{
     font-family: 'Muli', sans-serif;
   display: flex;

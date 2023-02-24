@@ -12,6 +12,19 @@ h1,h2{
 h3{
     color: purple;
 }
+
+table{
+    margin-top: 100px;
+    border-color: black;
+    border-style: double;
+    font-size: xx-large;
+    
+}
+
+caption{
+    color: purple;
+}
+
 section {
     width: 250px;
     height: 300px;

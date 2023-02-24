@@ -1,21 +1,22 @@
-*{
-  box-sizing: border-box;
+body{
+
+    background-color: aqua;
 
 }
 
-.table{
-  display: flex;
-  text-align: center;
-      font-family: fantasy;
-    text-align: center; 
-    color: red;
-        width: 250px;
-    height: 300px;
+h1{
     text-align: center;
-    background: rgb(231, 231, 231);
-    box-shadow: inset 0px 0px 20px black;
-    padding-top: 20px;
-    float: left;
-    box-sizing: border-box;
-    margin: 10px;
+
+}
+
+p ~ ul{
+    font-size: xx-large;
+    color: green;
+     text-align:center;
+}
+
+p{
+    font-size: xx-large;
+    color: red;
+    text-align: center;
 }

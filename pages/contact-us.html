@@ -38,17 +38,30 @@
    <form>
       <label for="fname">First name & Last Name:</label><br>
       <input type="text" id="fname" name="fname"><br>
-      <p id = "e">Join our mailing list?</p> 
-      <input type="radio" id="ye" name="customer" value="Yes">
-      <label id = "w" for="ye">Yes</label><br>
-      <input type="radio" id="no" name="customer" value="No">
-      <label id = "r" for="no">No<br></label><br>
+      <p id = "e">Reason for reaching out?</p> 
+
+      <input type="radio" id="customer" name="customer" value="product">
+      <label id = "w" for="customer">Issue with product</label><br>
+
+      <input type="radio" id="delivery" name="customer" value="delivery">
+      <label id = "r" for="delivery">Issue with delivery<br></label>
+
+      <input type="radio" id="return" name="customer" value="return">
+      <label id = "I" for="return">Issue with return<br></label>
+
+      <input type="radio" id="payment" name="customer" value="payment">
+      <label id = "p" for="payment">Issue with payment<br></label>
+
+      <input type="radio" id="other" name="customer" value="other">
+      <label id = "o" for="other">Something else<br></label><br>
+
       <input type="checkbox" id="cust1" name="cust1" value="cust">
       <label for="cust1">I am a returning customer.<br></label><br>
       <label for="fname">Enter your message:</label><br>
       <input type="text" id="fname" name="fname"><br>
-      <input type="submit" value="Submit">
+      <br><input type="submit" value="Submit">
 
     </form>
   </body>
 </html>
+

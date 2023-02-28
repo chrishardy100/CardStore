@@ -20,3 +20,19 @@ p{
     color: red;
     text-align: center;
 }
+
+p#mail{
+    color: green;
+}
+
+form{
+    font-size: medium;
+    color: green;
+    text-align: center;
+}
+
+p#update{
+    font-size: 20px;
+    color: green;
+    margin-bottom: 10px;
+}

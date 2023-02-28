@@ -21,6 +21,8 @@
           <li><a href="faqs.html">F.A.Qs</a></li>
           <li><a href="about-us.html">About-us</a></li>
           <li><a href="contact-us.html">Contact-us</a></li>
+
+          
         </ul>
       </nav>
       <button class="icon" id="toggle">
@@ -46,7 +48,24 @@
         <section><img src = "trainer.png" width="150" height="200" alt = "Trainer"><footer>Trainer(Super Secret Battle)<br>Condition: Excellent<br>Price: $90,000</footer></section>
         <section><img src = "lugia.png" width="150" height="200" alt = "Lugia"><footer>Lugia<br>Condition: Great <br>Price: $144,000</footer></section>
         <div class="sales">
-      </div>
+        </div>
+        <form target="_blank" method="GET">
+        <p>
+          <input type="checkbox" id="Charizard" name="Charizard">
+          <label for="Charizard">Charizard</label>
+          <input type="checkbox" id="Espeon" name="Espeon">
+          <label for="Espeon">Espeon</label>
+          <input type="checkbox" id="Umbreon" name="Umbreon">
+          <label for="Umbreon">Umbreon</label>
+          <input type="checkbox" id="Trainer" name="Trainer">
+          <label for="Trainer">Trainer(Super Secret Battle)</label>
+          <input type="checkbox" id="Lugia" name="Lugia">
+          <label for="Lugia">Lugia</label>
+        </p>
+        <p>
+          <input type="submit" value="Add to cart">
+        </p>
+      </form>
 
       <table>
         <caption>Take a look at our sales</caption>
@@ -61,11 +80,14 @@
           <td>$400,000</td>
         </tr>
       </table>
-    
-        <button class = "ripple"><a href="https://www.youtube.com/watch?v=FDqDvvJyY2w" target="_blank">How to Play</a></button><script src="ButtonScript.js"></script>
-        <button class = "ripple"><a href="https://www.pokemon.com/us" target="_blank">Pokemon Official Website</a></button><script src="ButtonScript.js"></script>
+      <div>
+        <button class = "ripple"><a href="https://www.youtube.com/watch?v=FDqDvvJyY2w" class ="no-underline" target="_blank"><b>How to Play Pokemon</b></a></button>
+        <button class = "ripple" id = "button2"><a href="https://www.pokemon.com/us" class ="no-underline" target="_blank"><b>Pokemon Offical Wesbite</b></a></button>
+        <script src="ButtonScript.js"></script>  
+      </div>
     </div>
   </div>
+  
 
  </body>
 </html>

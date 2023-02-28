@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="ButtonStyle.css">
     <script defer src="script.js"></script>
+    <script defer src="navbar.js"></script>
     <title>S & C Pokemon Inc</title>
   </head>
   <body>
@@ -32,5 +33,31 @@
     <li>Christopher Hardy</li>
     </ul>
     <p>This business was founded in 2021 by a love for a Pokemon and to help support the community of players and collectors.</p>
+    
+    <p id = "mail">JOIN OUR MAILING LIST!!!</p>
+
+    <form>
+      <label for="full_name">First name & Last Name:</label><br>
+      <input type="text" id="full_name" name="full_name"><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="text" id="email" name="email"><br>
+
+      <p id = "update">How often would you like to receive updates?</p>
+
+      <input type="radio" id="weekly" name="time" value="weekly">
+      <label id = "w" for="weekly">Weekly<br></label>
+
+      <input type="radio" id="Monthly" name="time" value="Monthly">
+      <label id = "m" for="Monthly">Monthly<br></label>
+
+      <input type="radio" id="quarterly" name="time" value="quarterly">
+      <label id = "q" for="quarterly">Quarterly<br></label><br>
+
+      <input type="checkbox" id="cust1" name="cust1" value="cust">
+      <label for="cust1">I agree to receive special offers and updates via email<br></label><br>
+
+      <input type="submit" value="Submit">
+    </form>
   </body>
 </html>
